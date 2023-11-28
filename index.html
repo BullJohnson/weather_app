@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Weather App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="weather.css" rel="stylesheet">
+    </head>
+
+    <body>
+      <div class="display">
+
+        <div class="search_area">
+            <input type="text" id="search_box" placeholder="Annapolis,MD,US">
+            <button id="search_button"><img src="images/search_icon.png" alt="search button"></button>
+        </div>
+
+        <div class="weather">
+          <h2 id="theSite">Weather in Hometown, US</h2>
+          <p id="theTime">00/00/000, 12:00 AM</p>
+          <h1 id="degrees">50°F</h1>
+          <div id="feelsLike">Feels Like 50.0°F</div>
+          <div id="hiLow">Hi 50.0°F / Low 50.0°F</div>
+          <img id="weatherGraphic" src="images/unknown_wht.png" alt="weather icon">
+          <div id="description">Cloudy</div>
+          <div id="humidity">Humidity: 50%</div>
+          <div id="wind">Wind: 6.2 mph</div>
+          <div id=windDeg>Direction: 180°</div>
+          <p id="key">North 0°,  East90°,  South 180°, West 270°</p>
+        </div>
+
+      </div>  
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="weather.js"></script>
+    </body>
+</html>
